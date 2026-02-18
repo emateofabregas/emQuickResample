@@ -3,8 +3,8 @@ Group {
  inputs 2
  label "<b>\[value range]"
  addUserKnob {20 User l emQuickResample}
- addUserKnob {7 range l value t "Resample the image with with near pixels close to this one." R 0 1000}
- range 7600
+ addUserKnob {7 range l value t "Resample the image with near pixels close to this one." R 0 1000}
+ range 1000
  addUserKnob {26 gap01 l " " T " "}
  addUserKnob {26 autor l " " T "<font color='grey'>emQuickResample v1.0 | emateofabregas | 2026</font>"}
 }
