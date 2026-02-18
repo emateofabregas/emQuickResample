@@ -1,7 +1,7 @@
 Group {
  name emQuickResample1
  inputs 2
- label "<b>\[value range]"
+ label "<b> value:\[value range]"
  addUserKnob {20 User l emQuickResample}
  addUserKnob {7 range l value t "Resample the image with near pixels close to this one." R 0 1000}
  range 1000
